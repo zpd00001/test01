@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/onetest
+    username: root
+    password: 1111
+    driver-class-name: com.mysql.jdbc.Driver
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+  typeAliasesPackage: com.example.demo.entity
+#logging
+logging:
+  level:
+    com.example: warn
